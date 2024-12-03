@@ -81,7 +81,7 @@ function App() {
                 <button type="submit" className="cta-button">Join the Waitlist</button>
             </form>
         </div>
-        <img src="/assets/hero-image.jpg" alt="Vibrant nightclub scene" className="hero-image" />
+        <img src="src/assets/hero-image.jpg" alt="Vibrant nightclub scene" className="hero-image" />
     </div>
     </>
   )
