@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import img from './assets/hero-image.jpg'
 import './App.css'
 
 function App() {
@@ -81,7 +80,7 @@ function App() {
                 <button type="submit" className="cta-button">Join the Waitlist</button>
             </form>
         </div>
-        <img src="src/assets/hero-image.jpg" alt="Vibrant nightclub scene" className="hero-image" />
+        <img src={img} alt="Vibrant nightclub scene" className="hero-image" />
     </div>
     </>
   )
